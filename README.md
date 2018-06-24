@@ -16,7 +16,7 @@ python client.py
 ![](https://user-gold-cdn.xitu.io/2018/6/4/163c96b5be229172?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 > **Note**
-> 摘自掘金小册《深入理解 RPC : 基于 Python 自建分布式高并发 RPC 服务》
+> 摘自掘金小册《深入理解 RPC : 基于 Python 自建分布式高并发 RPC 服务》@老钱
 
 整个过程分为五步
 
@@ -36,3 +36,8 @@ python server.py localhost 8080
 1. time python client.py 
 2. time python multithread_client.py # 使用线程池调用
 ```
+
+## Thrift 实现圆周率计算服务
+![](https://user-gold-cdn.xitu.io/2018/6/5/163cefafce5878f8?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+> **Note**
+> 摘自掘金小册《深入理解 RPC : 基于 Python 自建分布式高并发 RPC 服务》@老钱

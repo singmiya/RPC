@@ -12,7 +12,7 @@ def main():
     # 使用Stub
     client = pi_pb2_grpc.PiCalculatorStub(chanel)
     # 调用
-    for i in range(1, 10000):
+    for i in range(100000000000):
         client.Calc(pi_pb2.PiRequest(n=i))
         # print 'pi(%d) = ' % i, client.Calc(pi_pb2.PiRequest(n=i)).value
 

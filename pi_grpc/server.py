@@ -11,6 +11,7 @@ import pi_pb2, pi_pb2_grpc
 
 
 class PiCalculatorServicer(pi_pb2_grpc.PiCalculatorServicer):
+
     def Calc(self, request, context):
         """计算圆周率的逻辑
         """

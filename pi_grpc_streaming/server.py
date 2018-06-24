@@ -16,14 +16,19 @@ class PiCalculatorServicer(pi_pb2_grpc.PiCalculatorServicer):
     def Calc(self, request_iterator, context):
         # request是一个迭代器参数，对应一个stream请求
         for request in request_iterator:
+            # if request.n < 0:
+            #     context.set_code(grpc.StatusCode.INVALID_ARGUMENT) # 参数错误
+            #     context.set_details('request number should be positive') # 错误具体说明
+            #     yield pi_pb2.PiResponse()
             # 50% 的概率会有响应
-            if random.randint(0, 1) == 1:
-                continue
+            # if random.randint(0, 1) == 1:
+            #     continue
             s = 0.0
             for i in range(request.n):
                 s += 1.0 / (2 * i + 1) / (2 * i + 1)
-            # 响应是一个生成器，一个响应对应一个请求
-            yield pi_pb2.PiResponse(n=i, value=math.sqrt(8 * s))
+                # 响应是一个生成器，一个响应对应一个请求
+                context.set_code(grpc.StatusCode.OK)
+                yield pi_pb2.PiResponse(n=i, value=math.sqrt(8 * s))
 
 
 def main():

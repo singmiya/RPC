@@ -1,0 +1,28 @@
+2018-06-24 21:29:14,204 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /usr/local/Cellar/zookeeper-3.4.5/bin/../conf/zoo.cfg
+2018-06-24 21:29:14,211 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2018-06-24 21:29:14,211 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2018-06-24 21:29:14,212 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2018-06-24 21:29:14,212 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2018-06-24 21:29:14,229 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /usr/local/Cellar/zookeeper-3.4.5/bin/../conf/zoo.cfg
+2018-06-24 21:29:14,230 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2018-06-24 21:29:14,264 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2018-06-24 21:29:14,264 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=192.168.0.187
+2018-06-24 21:29:14,265 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_25
+2018-06-24 21:29:14,265 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2018-06-24 21:29:14,265 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/Users/csip/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+2018-06-24 21:29:14,265 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/usr/local/Cellar/zookeeper-3.4.5/bin/../build/classes:/usr/local/Cellar/zookeeper-3.4.5/bin/../build/lib/*.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../lib/slf4j-api-1.6.1.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../lib/netty-3.2.2.Final.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../lib/log4j-1.2.15.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../lib/jline-0.9.94.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../zookeeper-3.4.5.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../src/java/lib/*.jar:/usr/local/Cellar/zookeeper-3.4.5/bin/../conf:/Users/csip/Library/Tomcat8/lib/servlet-api.jar:/Users/csipDesktop
+2018-06-24 21:29:14,266 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/Users/csip/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2018-06-24 21:29:14,266 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/var/folders/w9/jq7ds0j94qz97hp3ttp1334r0000gn/T/
+2018-06-24 21:29:14,266 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2018-06-24 21:29:14,266 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Mac OS X
+2018-06-24 21:29:14,266 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=x86_64
+2018-06-24 21:29:14,266 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=10.13.3
+2018-06-24 21:29:14,267 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=csip
+2018-06-24 21:29:14,267 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/Users/csip
+2018-06-24 21:29:14,267 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/Users/csip/Documents/code/python/RPC/pi_grpc
+2018-06-24 21:29:14,275 [myid:] - INFO  [main:ZooKeeperServer@726] - tickTime set to 2000
+2018-06-24 21:29:14,276 [myid:] - INFO  [main:ZooKeeperServer@735] - minSessionTimeout set to -1
+2018-06-24 21:29:14,276 [myid:] - INFO  [main:ZooKeeperServer@744] - maxSessionTimeout set to -1
+2018-06-24 21:29:14,309 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2018-06-24 21:29:14,327 [myid:] - INFO  [main:FileSnap@83] - Reading snapshot /usr/local/Cellar/zookeeper-3.4.5/data/version-2/snapshot.0
+2018-06-24 21:29:14,352 [myid:] - INFO  [main:FileTxnSnapLog@240] - Snapshotting: 0xaa to /usr/local/Cellar/zookeeper-3.4.5/data/version-2/snapshot.aa
